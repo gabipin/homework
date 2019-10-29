@@ -75,3 +75,15 @@ body,
 .next-week {
   margin-top: 80px;
 }
+
+.github-link a,
+.github-link a:link,
+.github-link a:visited{
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 12px;
+    margin-top: 10px;
+    color: whitesmoke;
+}
