@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Homework 3</title>
+    <script
+      src="https://kit.fontawesome.com/6475f57399.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Karla|Montserrat:700|Open+Sans:700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <form>
+            <div class="input-group mb-3 mt-3">
+              
+                <input
+                type="text"
+                class="form-control search-city"
+                placeholder="City Name..."
+                aria-label="City Name..."
+                aria-describedby="button-addon2"
+              />
+              <div class="input-group-append">
+                <i class="fas fa-search mt-2 ml-2 search-icon"></i>
+              </div>
+            </div>
+          </form>  
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="city-name"></div>
+          <div class="current-date"></div>
+          <div class="current-time"></div>
+        </div>
+      </div>
+      <div class="row today-info">
+        <div class="col-4">
+          <div class="temperature-now"></div>
+          <div class="temperature-avrg"></div>
+          <br />
+          <div class="weather-comment"></div>
+        </div>
+        <div class="col-8 text-right">
+          <div class="large-image"><i class="fas fa-cloud"></i></div>
+        </div>
+      </div>
+      <div class="row next-week text-center mb-3">
+        <div class="col-2">
+          <div class="week-day">Mon</div>
+          <div class="weather-icon"><i class="fas fa-cloud"></i></div>
+          <div class="week-temperature">26º/18º</div>
+        </div>
+        <div class="col-2">
+          <div class="week-day">Tue</div>
+          <div class="weather-icon"><i class="fas fa-cloud-rain"></i></div>
+          <div class="week-temperature">25º/15º</div>
+        </div>
+        <div class="col-2">
+          <div class="week-day">Wed</div>
+          <div class="weather-icon"><i class="fas fa-cloud"></i></div>
+          <div class="week-temperature">24º/15º</div>
+        </div>
+        <div class="col-2">
+          <div class="week-day">Thu</div>
+          <div class="weather-icon"><i class="fas fa-cloud-sun"></i></div>
+          <div class="week-temperature">26º/17º</div>
+        </div>
+        <div class="col-2">
+          <div class="week-day">Fri</div>
+          <div class="weather-icon"><i class="fas fa-cloud-sun"></i></div>
+          <div class="week-temperature">26º/17º</div>
+        </div>
+        <div class="col-2">
+          <div class="week-day">Sat</div>
+          <div class="weather-icon"><i class="fas fa-sun"></i></div>
+          <div class="week-temperature">25º/17º</div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
