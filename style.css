@@ -1,13 +1,23 @@
-html,
-body,
-.container {
-  background-image: linear-gradient(
-    to top,
-    #a7a6cb 0%,
-    #8989ba 52%,
-    #8989ba 100%
-  );
+body {
+  /*background: #E0EAFC;  
+  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC); 
+  background: linear-gradient(to right, #CFDEF3, #E0EAFC); */
+  padding:20px;
+  
 }
+
+.container {
+  max-width: 500px;
+  -webkit-box-shadow: 10px 10px 79px 2px rgba(0,0,0,0.35);
+  -moz-box-shadow: 10px 10px 79px 2px rgba(0,0,0,0.35);
+  box-shadow: 10px 10px 79px 2px rgba(0,0,0,0.35);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: rgb(83,108,156);
+  background: linear-gradient(180deg, rgba(83,108,156,1) 0%, rgba(200,214,241,1) 48%, rgba(224,234,252,1) 100%);
+}
+
 .search-icon {
   font-size: 22px;
 }
@@ -18,7 +28,7 @@ body,
 .week-temperature,
 .weather-comment,
 .temperature-avrg {
-  color: whitesmoke;
+  color: #08132B;
   font-family: "Karla", sans-serif;
 }
 .city-name {
@@ -31,7 +41,7 @@ body,
 
 .temperature-now {
   font-family: "Montserrat", sans-serif;
-  color: whitesmoke;
+  color: #08132B;
   font-size: 60px;
   font-weight: 700;
 }
@@ -40,9 +50,9 @@ body,
   font-weight: lighter;
 }
 .today-info {
-  margin-top: 35px;
+  margin-top: 54px;
   margin-left: 2px;
-  min-height: 275px;
+  min-height: 256px;
 }
 .weather-icon,
 .large-image,
@@ -52,14 +62,10 @@ body,
 .weather-icon {
   font-size: 25px;
 }
-.large-image {
-  font-size: 300px;
-  position: fixed;
-  top: 90px;
-  right: -160px;
-}
+
 .weather-comment {
   font-size: 30px;
+  color: #EC6E4C;
 }
 .week-day,
 .week-temperature {
@@ -71,6 +77,11 @@ body,
   text-align: center;
   display: block;
   margin: 0 auto;
+}
+
+.weather-icon img {
+  width: 50px;
+  max-width: 100%;
 }
 .next-week {
   margin-top: 80px;
@@ -85,5 +96,5 @@ body,
     margin: 0 auto;
     padding: 12px;
     margin-top: 10px;
-    color: whitesmoke;
+    color: #08132b;
 }
